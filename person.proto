@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package main;
+
+message Exercise {
+    int32 fitness = 1;
+    int32  Pilates =2;
+}
+
+message Person {
+    string name = 1;
+    int32 age = 2;
+    Exercise Exercise =3;
+}
+
+
